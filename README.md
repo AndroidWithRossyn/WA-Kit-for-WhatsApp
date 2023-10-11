@@ -61,10 +61,11 @@ Rossyn
 
  <p align="center">
     <a href="">
-      <img src="" width="1280" />
+      <img src="https://github.com/OmaPrakash/WA-Kit-for-WhatsApp-2023/assets/118904953/b9d5cf88-4431-46f1-abd4-0fae2a5689d4" width="1280" />
     </a>
   </p>
-  
+
+
 
 ## Features of WA Kit for Whatsapp
 - Whats Web (Dual whatsapp accounts)
