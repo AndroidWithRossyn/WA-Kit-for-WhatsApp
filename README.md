@@ -56,7 +56,9 @@ Rossyn
     </a>
   </p>
 
-
+## Check the app on Playstore
+https://play.google.com/store/apps/details?id=com.whatscan.whatsweb.whatzweb.whatwebscan  100K+ downloads  4.0 star
+https://play.google.com/store/apps/details?id=com.SachinApps.Whatscan.Pro.WhatsClone   10K+ downloads  4.0 star
 
 
  <p align="center">
@@ -64,6 +66,8 @@ Rossyn
       <img src="https://github.com/OmaPrakash/WA-Kit-for-WhatsApp-2023/assets/118904953/b9d5cf88-4431-46f1-abd4-0fae2a5689d4" width="1280" />
     </a>
   </p>
+
+
 
 
 
