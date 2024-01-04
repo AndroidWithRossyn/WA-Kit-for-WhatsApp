@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/llButtons"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:text="@string/text_enter_message"
+                android:textColor="@color/txtPrime"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etTextMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginHorizontal="4dp"
+                android:elevation="3dp"
+                android:background="@drawable/apk_edit_text_background"
+                android:hint="@string/enter_message_here"
+                android:textColorHint="@color/txtSecond"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="10dp"
+                android:textColor="@color/txtPrime" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/text_enter_repetition_limit"
+                android:textColor="@color/txtPrime"
+                android:padding="5dp"
+                android:textSize="16sp"  />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/etTextRepeateNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="4dp"
+                    android:elevation="3dp"
+                    android:layout_weight="2"
+                    android:hint="Number"
+                    android:paddingHorizontal="10dp"
+                    android:background="@drawable/apk_edit_text_background"
+                    android:inputType="number"
+                    android:textColorHint="@color/txtSecond"
+                    android:textColor="@color/txtPrime"
+                    android:paddingVertical="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="@string/text_limit_note"
+                    android:textColor="@color/red" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/apk_light_green_box"
+                    android:orientation="horizontal"
+                    android:paddingVertical="0dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:paddingStart="13dp"
+                        android:text="@string/text_new_line_on"
+                        android:textColor="@color/items"
+                        android:textSize="16sp" />
+
+                    <androidx.appcompat.widget.SwitchCompat
+                        android:id="@+id/switchNewLine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:paddingEnd="@dimen/margin_5"
+                        android:textColorHint="@color/app_light_color" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btnRepeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_marginStart="@dimen/margin_5"
+                    android:layout_marginEnd="15dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/items"
+                    android:paddingHorizontal="@dimen/_10dp"
+                    android:text="@string/text_repeat"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etTextRepeates"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="4dp"
+                android:elevation="3dp"
+                android:layout_marginVertical="16dp"
+                android:background="@drawable/apk_edit_text_background"
+                android:inputType="textMultiLine"
+                android:textColor="@color/txtPrime"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llButtons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/items"
+                android:paddingHorizontal="15dp"
+                android:text="@string/text_copy"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/items"
+                android:paddingHorizontal="15dp"
+                android:text="@string/text_clear"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/items"
+                android:paddingHorizontal="15dp"
+                android:text="@string/text_share"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

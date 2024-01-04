@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mToolBarCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/mToolBarThumb"
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:foreground="@drawable/ripple_100"
+            android:padding="16dp"
+            android:src="@drawable/e_back"
+            app:tint="@color/black"/>
+
+        <TextView
+            android:id="@+id/mToolBarText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:gravity="center_vertical"
+            android:text="Settings"
+            android:textColor="@color/txtPrime"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

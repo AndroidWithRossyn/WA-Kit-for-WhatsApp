@@ -1,0 +1,149 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- toolbar. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--        StatusBar-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/items</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/colorPrimary</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/items</item>
+
+
+        <item name="android:fontFamily">@font/baloo</item>
+        <item name="android:statusBarColor">@color/end_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+
+    </style>
+
+    <!--  Chip padding and his TextSize-->
+    <style name="ThinnerChip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipMinHeight">25dp</item>
+        <item name="android:textAppearance">@style/SmallerText</item>
+    </style>
+
+    <style name="SmallerText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--    Toolbar title text size-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3dp</item>
+        <item name="android:paddingRight">3dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+        <item name="android:text">@string/ad_attribution</item>
+        <item name="android:background">#FFEB3B</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">#8BC34A</item>
+    </style>
+
+
+    <style name="Theme.AppCompat." parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/baloo</item>
+        <item name="font">@font/baloo</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="ThemeWithRoundShape">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="nLinearLayout_Main_Option">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:foreground">@drawable/ripple_100</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="nText_10SP">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">@dimen/textsize_18</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="nText_16SP">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/textsize_16</item>
+    </style>
+
+    <style name="nText_12SP">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textsize_12</item>
+    </style>
+
+    <style name="BannerAdsView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="textsize_18">18sp</dimen>
+    <dimen name="textsize_16">16sp</dimen>
+    <dimen name="textsize_12">12sp</dimen>
+    <string name="ad_attribution">ad</string>
+
+    <style name="SlidingDialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" >
+        <item name="android:textColor">#f00</item>
+    </style>
+
+    <style name="PositiveButtonStyle" >
+        <item name="android:textColor">#00f</item>
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/apk_item_border"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvAscii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:text="ascii face"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/ivWpShare"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/ivCopy"
+        android:foreground="@drawable/ripple_100"
+        android:padding="8dp"
+        android:src="@drawable/e_whats_thumb"
+        app:tint="@color/items" />
+
+    <ImageView
+        android:id="@+id/ivCopy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/ivShare"
+        android:foreground="@drawable/ripple_100"
+        android:padding="8dp"
+        android:src="@drawable/icon_copy"
+        app:tint="@color/items" />
+
+
+    <ImageView
+        android:id="@+id/ivShare"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:foreground="@drawable/ripple_100"
+        android:padding="8dp"
+        android:src="@drawable/e_share_normal"
+        app:tint="@color/items" />
+
+</RelativeLayout>

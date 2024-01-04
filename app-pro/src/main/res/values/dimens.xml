@@ -1,0 +1,33 @@
+<resources>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="_20dp">20dp</dimen>
+    <dimen name="_5dp">5dp</dimen>
+    <dimen name="_10dp">10dp</dimen>
+    <dimen name="_3dp">3dp</dimen>
+    <dimen name="_100dp">100dp</dimen>
+    <dimen name="_7dp">7dp</dimen>
+    <dimen name="_15dp">15dp</dimen>
+    <dimen name="_25dp">25dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_42">42dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="_30dp">30dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="_16dp">16dp</dimen>
+    <dimen name="ads_height">270dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margine_40">40dp</dimen>
+    <dimen name="textsize_14">14sp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="textsize_15">15sp</dimen>
+    <dimen name="margine_75">75dp</dimen>
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+</resources>

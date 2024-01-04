@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cycleInterpolator xmlns:android="schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:cycles="11"
+    tools:ignore="NamespaceTypo" />

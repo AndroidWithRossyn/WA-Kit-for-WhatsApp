@@ -1,0 +1,182 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+def  license_key = '\"paste your license key here...."'
+
+android {
+    compileSdk 33
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    defaultConfig {
+        applicationId "com.whatscan.whatsweb.whatzweb.whatwebscan"
+        minSdk 24
+        targetSdk 33
+        versionCode 41
+        versionName "1.0.1"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "Whatscan-Main")
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', 'LICENSE_KEY', license_key
+
+        }
+
+        debug {
+            multiDexEnabled true
+            debuggable false
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField 'String', 'LICENSE_KEY', license_key
+
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion '1.3.2'
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+}
+
+dependencies {
+    def roomVersion = "2.4.3"
+
+    implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
+    testImplementation 'junit:junit:4.13.2'
+
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //Fragment Ktx
+    implementation "androidx.fragment:fragment-ktx:1.5.1"
+
+    //Hilt
+    implementation('com.google.dagger:hilt-android:2.43.2')
+    implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
+    kapt('com.google.dagger:hilt-android-compiler:2.43.2')
+
+    //Room
+    implementation("androidx.room:room-runtime:$roomVersion")
+    kapt("androidx.room:room-compiler:$roomVersion")
+    implementation("androidx.room:room-ktx:$roomVersion")
+
+    //KTX dependencies
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+
+    //Gson
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //Firebase
+    implementation platform('com.google.firebase:firebase-bom:30.3.2')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-config'
+    implementation 'com.google.firebase:firebase-inappmessaging-display'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.13.2'
+    kapt('com.github.bumptech.glide:compiler:4.13.2')
+
+    //App Intro
+    implementation 'com.github.AppIntro:AppIntro:6.2.0'
+
+
+    implementation 'org.apache.commons:commons-lang3:3.5'
+    implementation 'commons-io:commons-io:2.5'
+    implementation 'org.jsoup:jsoup:1.12.1'
+    implementation 'org.jetbrains:annotations:16.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.kaopiz:kprogresshud:1.2.0'
+    implementation 'com.google.code.gson:gson:2.9.1'
+
+    //for lottie
+    implementation "com.airbnb.android:lottie:6.1.0"
+
+    //Pager indicator
+    implementation 'com.tbuonomo:dotsindicator:4.2'
+
+    implementation 'com.karumi:dexter:6.2.2'
+    implementation 'io.github.kobakei:ratethisapp:1.2.0'
+
+
+    implementation 'uk.co.markormesher:android-fab:2.5.0'
+
+    implementation "com.leinardi.android:speed-dial:3.1.1"
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+
+    implementation 'com.google.zxing:core:3.3.3'
+    implementation group: 'org.bouncycastle', name: 'bcprov-jdk15to18', version: '1.64'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+
+    // app update
+    implementation 'com.google.android.play:core:1.10.3'
+//    ads
+    implementation 'com.google.android.gms:play-services-ads:22.4.0'
+    implementation 'com.google.android.ump:user-messaging-platform:2.1.0'
+
+    implementation 'com.facebook.android:audience-network-sdk:6.16.0'
+    implementation 'com.google.ads.mediation:facebook:6.16.0.0'
+
+
+//    in app billing
+    implementation project(path: ':google-iab')
+    def billing_version = "6.0.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+    implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+    implementation 'com.google.guava:guava:24.1-jre'
+
+}

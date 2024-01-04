@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actionHome"
+        android:title="Main Tools"
+        android:icon="@drawable/e_home"/>
+    <item
+        android:id="@+id/actionAdvanceTool"
+        android:title="New Tools"
+        android:icon="@drawable/e_tools"/>
+</menu>

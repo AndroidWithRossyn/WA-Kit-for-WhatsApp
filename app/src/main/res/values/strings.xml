@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Whatscan</string>
+
+    <string name="app_name_playstore">Whatscan for Whatsapp Web</string>
+    <string name="splash_text">Don\'t wait for the right moment. Instead, make every moment right</string>
+
+    <string name="default_notification_channel_id">101</string>
+    <string name="whatsapp_latest">Version 2.22.6.72</string>
+    <string name="hey_there">Hey there!</string>
+
+    <string name="facebook_app_id"></string>
+
+    <string name="admob_app_id">ca-app-pub-8956472886210802~4566297367</string>
+    <!-- firebase config ads id-->
+
+
+    <string name="more_apps">https://www.google.com/</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_image">User image</string>
+    <string name="your_messages_will_appear_here">Your Messages will appear here</string>
+    <string name="deleted_message">This message was deleted</string>
+    <string name="signal_deleted_message">This message was deleted.</string>
+    <string name="welcome">Welcome</string>
+    <string name="intro_text_one">WE will allow you to recover deleted WhatsApp messages by reading your notifications</string>
+    <string name="notice">Notice</string>
+    <string name="intro_text_two">If you have silenced a chat or watching it when the message gets deleted, you will not receive a notification so WE can\'t help in this case. \n \n WhatsDeleted can\'t recover messages that have been deleted before you installed this app.</string>
+    <string name="setup">Setup</string>
+    <string name="notification_notice">This allow the app to backup your notifications and messages in case they are deleted</string>
+    <string name="notification_reader">Notification reader</string>
+    <string name="enable">Enable</string>
+
+
+    //Status
+    <string name="share_app_message">Download All Videos using this app. Download Now</string>
+    <string name="share">Share</string>
+    <string name="text_enter_number">Enter Number</string>
+    <string name="text_enter_profile_mobile_number">Enter Profile Mobile Number</string>
+    <string name="text_search_profile">Search Profile</string>
+    <string name="text_enter_message">Enter Message</string>
+    <string name="text_enter_repetition_limit">Enter Repeat Number</string>
+    <string name="text_copy">Copy</string>
+    <string name="text_clear">Clear</string>
+    <string name="text_share">Share</string>
+    <string name="text_repeat">Repeat</string>
+    <string name="text_new_line_on">New Line On </string>
+    <string name="text_limit_note">Note : Number of Repeater Text Limit 999</string>
+    <string name="text_qrCodeType">QR Code Type</string>
+    <string name="enterText">Enter Text</string>
+    <string name="generate">Generate</string>
+    <string name="refresh">Refresh</string>
+    <string name="contents_text">title</string>
+    <string name="contents_email">email.com</string>
+    <string name="contents_phone">phone</string>
+    <string name="contents_sms">sms</string>
+    <string name="contents_contact">contact</string>
+    <string name="contents_location">location</string>
+    <string name="qrReader">QR Reader</string>
+    <string name="qrCodeResult">QR Code Result</string>
+    <string name="search">Search</string>
+    <string name="share_subject">share</string>
+    <string name="share_using">Share Using</string>
+    <string name="text_enter_text">Enter Text</string>
+    <string name="text_enter_emoji">Enter Emoji</string>
+    <string name="text_transform">Transform</string>
+    <string name="whatsapp_current_version">Whatsapp Current Version</string>
+    <string name="txt_please_enter_your_message_and_counter">Please enter your message and counter.</string>
+    <string name="txt_please_enter_your_message">Please enter your message.</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_save">Save</string>
+    <string name="text_back">Back</string>
+    <string name="text_next">Next</string>
+    <string name="text_advance_tools">Advance Tools</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="text_about_us">We are pleased to see you really like the application. We will keep updating and improving user experience into the Whatscan for Whatsapp.\n\nIf you have any query or suggestion please write us at Support email whatweb2@gmail.com.</string>
+    <string name="rating_dialog_experience">How was your experience with us?</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_never">Never</string>
+    <string name="rating_dialog_feedback_title">Feedback</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_suggestions">Suggest us what went wrong and we\'ll work on it!</string>
+    <string name="text_please_wait">Please wait..</string>
+    <string name="text_privacy_policy">Privacy Policy</string>
+    <string name="status_auto_clean">Auto Cleanup : %1$s</string>
+    <string name="status_clean_info">Info : %1$s</string>
+    <string name="status_clean_schedule">Schedule service : %1$s</string>
+    <string name="storage_denied">Storage Permission Denied</string>
+    <string name="app_detected">Detected</string>
+    <string name="off">OFF</string>
+    <string name="enabled">Enabled</string>
+    <string name="not_running">Not Running</string>
+    <string name="running">Running</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="files_cleared">Files Cleared successfully</string>
+    <string name="alert_clear_title">Remove files?</string>
+    <string name="alert_clear_summary">Clear %1$d files of %2$s from storage?
+        The main whatsApp backup file will be kept. </string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="auto_clean_activated">Auto-clean activated</string>
+    <string name="enter_message_here">Enter message here..</string>
+    <string name="thank_you">Thank You!!</string>
+    <string name="delete">Delete ?</string>
+    <string name="sure_to_delete">Are you sure you want to delete ?</string>
+    <string name="permission">Permission</string>
+    <string name="allow_permission_andriod_13">We need your permission to use whatsapp .status folder and press press USE THIS FOLDER Button and Allow permission.</string>
+    <string name="whatsapp_status_images">Whatsapp Status\nImages</string>
+    <string name="whatsapp_status_videos">Whatsapp Status\nVideos</string>
+    <string name="saved_status">Saved Status</string>
+    <string name="show_you_all_saved_whatsapp_status_medias">Show you all saved whatsapp status medias</string>
+    <string name="ascii_face_text">Ascii Face</string>
+    <string name="info_whatsapp">Info WA</string>
+    <string name="best_shayari_collection">Best Shayari collection of all different Categories..</string>
+    <string name="shayari">Shayari</string>
+    <string name="messages_reply_txt">With quick replies and create shortcuts for the messages you send to your friends</string>
+    <string name="message_reply">Message Reply</string>
+    <string name="qr_generator">QR Generator</string>
+    <string name="qr_reader">QR Reader</string>
+    <string name="caption_txt">The words that are written above or below a picture</string>
+    <string name="caption">Caption</string>
+    <string name="delete_messages_txt">Recovers deleted messages and can also read your messages and chat anonymously.</string>
+    <string name="deleted_messages">Deleted Messages</string>
+    <string name="text_repeater">Text Repeater is the easiest online tool for repeating a piece of text multiple times.</string>
+    <string name="repeater">Repeater</string>
+    <string name="stickers">Stickers</string>
+    <string name="font_to_emoji">Font To Emoji</string>
+    <string name="search_profile_txt">Find easily any whatsapp profile through mobile number</string>
+    <string name="search_profile">Search Profile</string>
+    <string name="wa_web">You can use whatsapp easily using web scan</string>
+    <string name="whatsapp_web">Whatsapp Web</string>
+    <string name="your_ram">Your Ram\nis almost done!</string>
+
+    <string name="no_advertisment">No Advertisement</string>
+
+    <string name="oneTimePurchase">One Time Purchase</string>
+
+    <string name="purchase_now">Purchase Now</string>
+
+    <string-array name="settings_auto_entries">
+        <item>OFF</item>
+        <item>Everyday at 3:00 AM</item>
+        <item>Once per week on Friday at 3:00 AM</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginHorizontal="16dp"
+        android:background="@drawable/card_background"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_30dp"
+                android:gravity="center"
+                android:text="@string/text_about_us"
+                android:textColor="@color/txtSecond"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="@dimen/margin_70"
+                android:layout_height="@dimen/margin_70"
+                android:layout_marginTop="30dp"
+                android:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                style="@style/nText_12SP"
+                android:layout_marginTop="@dimen/margin_5"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="@color/txtPrime"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAppVersion"
+                style="@style/nText_12SP"
+                android:text="@string/app_version"
+                android:textColor="@color/txtSecond" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="@dimen/_20dp"
+                android:layout_marginBottom="@dimen/margin_30"
+                android:gravity="center"
+                android:text="Thank you"
+                android:textColor="@color/txtPrime"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

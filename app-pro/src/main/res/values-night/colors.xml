@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#EE000000</color>
+
+    <color name="txtPrime">#f2f3f5</color>
+    <color name="txtSecond">#f4f4f4</color>
+
+
+<!--    change night colors-->
+<!--    <color name="items">#c395f8</color>-->
+    <color name="items">#05dac0</color>
+
+    <color name="stroke">#1AF9D57D</color>
+
+    <color name="ripple">#3C3C3C</color>
+
+    <color name="gray_light">#3C3C3C</color>
+
+    <color name="start_color">#80273443</color>
+    <color name="center_color">#4D273443</color>
+    <color name="end_color">#33273443</color>
+
+    <color name="whatsapp">#25D366</color>
+    <color name="whatsapp_business">#075E54</color>
+    <color name="signal">#3A76F0</color>
+    <color name="telegram">#B57C08</color>
+
+
+    <color name="back_color">#80273443</color>
+    <color name="transprant">#00000000</color>
+
+    <color name="purple_500">#1f2c34</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="blue">#BA94EF</color>
+    <color name="grey">#E1CACACA</color>
+    <color name="white">#FF000000</color>
+    <color name="red">#8D0B01</color>
+    <color name="message_bg">#1f2c34</color>
+    <color name="deleted_message">#614545</color>
+    <color name="toolbar">#FFFFFF</color>
+    <color name="chat_list">#131c23</color>
+
+
+</resources>
