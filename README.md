@@ -1,65 +1,20 @@
-<p align="center">
-  <h1 align="center">WA Kit for Whatsapp 2023 : Tools for Whatsapp with admob Ads</h1>
+<h1 align="center">WA Kit for Whatsapp 2023 : Tools for Whatsapp with admob Ads</h1>
 
-WA Kit for Whatsapp is the best Whats app which contains various tools like Whats Sticker, Direct Chat, Status Story Saver, Whats Web, Scanner And QR Code Generator etc. Get all these tools Whats Web, Status Saver or Status Downloader, Whats Direct Chat – Direct Chat without saving numbers, Sticker Maker, etc in this What’s Tools Scan app.
-<br>
-<br>
 
-- ⚡ If You want to join us than message on <a href="https://wa.me/+919694260426/">
-  Whatsapp</a> , <a href="banrossyn@gmail.com">Mail</a>
-  &
-  <a href="https://t.me/banrossyn">Telegram</a>.
+<div align="center">
+
+![GitHub last commit](https://img.shields.io/github/last-commit/AndroidWithRossyn/WA-Kit-for-WhatsApp-2023)
+![pv](https://pageview.vercel.app/?github_repo=WA-Kit-for-WhatsApp-2023)
+<a href="https://t.me/banrossyn" target="_blank"><img src="https://img.shields.io/badge/Telegram-%40banrossyn-28a8ea"></a>
+<a href="https://wa.me/+919694260426/" target="_blank"><img src="https://img.shields.io/badge/whatsapp-%40+919694260426-28a8ea"></a>
+<a href="https://www.linkedin.com/in/banrossyn/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-banrossyn-informational"></a>
+<a href="mailto:banrossyn@gmail.com"><img src="https://img.shields.io/badge/Email-banrossyn%40gmail.com-blue"></a>
+
+</div>
 
 > Note: `-- Apache License 2.0` you can't Publish any Source code without permission.
 
-# (JAVA)
-
-<p align="center">
-    <a href="https://www.paypal.com/paypalme/banrossyn">
-      <img src="https://user-images.githubusercontent.com/97843190/184054819-e2e80e69-df46-4d38-8769-5d591673d412.png" Width="400"/>
-    </a>
-  </p>
-<p align="center">If you like my work and Source Code is really helpful for you, <strong>Show Some Love</strong></p>
-
-# What's new:
-
-    🔥 Bug Fixed.
-
-
-# Source Code Available at Low Price.
-
-For any inquiry, app support or app customization contact us at
-
-– banrossyn@gmail.com
-
-–  https://wa.me/+919694260426/
-
-–  https://t.me/banrossyn/
-
-# Note:
-
-This source code will be offical given directly through the developer. You will not find this on any
-selling website. To buy the source code, you have to directly connect with the developer. For this,
-payment will have to be made through the method given by the developer, after payment you will be
-given the source code through mail. Any kind of change in the app will be charged separately. After
-purchasing the app, you will be helped till it is published.
-
-Regars
-
-Rossyn
-
-# Download Now:
-
-<p align="center">
-    <a href="https://github.com/OmaPrakash/WA-Kit-for-WhatsApp-2023/raw/main/app-debug.apk">
-      <img src="https://user-images.githubusercontent.com/97843190/183300573-ac4dd10f-b7e2-476d-a36d-7dd12ff497c7.png" width ="300" />
-    </a>
-  </p>
-
-## Check the app on Playstore
-https://play.google.com/store/apps/details?id=com.whatscan.whatsweb.whatzweb.whatwebscan  100K+ downloads  4.0 star
-https://play.google.com/store/apps/details?id=com.SachinApps.Whatscan.Pro.WhatsClone   10K+ downloads  4.0 star
-
+WA Kit for Whatsapp is the best Whats app which contains various tools like Whats Sticker, Direct Chat, Status Story Saver, Whats Web, Scanner And QR Code Generator etc. Get all these tools Whats Web, Status Saver or Status Downloader, Whats Direct Chat – Direct Chat without saving numbers, Sticker Maker, etc in this What’s Tools Scan app.
 
  <p align="center">
     <a href="">
@@ -80,10 +35,10 @@ https://play.google.com/store/apps/details?id=com.SachinApps.Whatscan.Pro.WhatsC
 - Stylish Fonts
 - WhatScan QR Code Generator and scanner
 
-# WA Kit for Whatsapp:
+## WA Kit for Whatsapp:
 
 <p align="center">
-    <a href="https://github.com/OmaPrakash/WA-Kit-for-WhatsApp-2023/raw/main/app-debug.apk">
+    <a href="https://github.com/AndroidWithRossyn/WA-Kit-for-WhatsApp-2023/raw/main/app-debug.apk">
        <img src="https://user-images.githubusercontent.com/97843190/183300573-ac4dd10f-b7e2-476d-a36d-7dd12ff497c7.png" width ="300" />
     </a>
   </p>
@@ -91,57 +46,32 @@ https://play.google.com/store/apps/details?id=com.SachinApps.Whatscan.Pro.WhatsC
 
 
 ## AMAZING KEY FEATURE WE OFFER
-• Animated UI Design
-
-• Splash screen with progressbar animation
-
-• Onboarding Screen with professional ui intro display
-
-• Beautiful Gridview with CardView and modern design
-
-• Find your deleted messages by someone
-
-• Generate your text to emoticon
-
-• Share your emoticon to whatsapp or all social media
-
-• Search your emoticon
-
-• About page with elegant UI
-
-• Contact page with smart action
-
-• Privacy Policy
-
-• Rate app lets you get feedback
-
-• Share app allows you to get a lot of new users
-
-• More app allows users to browse and try all of your app
-
-• Banner AdMob ADs integrations
-
-• Native AdMob ads integrations
-
-• Interstitial AdMob ads integrations
-
-• Android Studio Project
-
-• Developed with java programming language
-
-• No programming skills required
-
-• Latest SDK Version support android 13
-
-• Perfect and minimal clean material design
-
-• Easy to customize
-
-• Easy Documentation step by step with screenshot
-
-• Feature update and supports
-
-• Ready release and get large income
+- Animated UI Design
+- Splash screen with progressbar animation
+- Onboarding Screen with professional ui intro display
+- Beautiful Gridview with CardView and modern design
+- Find your deleted messages by someone
+- Generate your text to emoticon
+- Share your emoticon to whatsapp or all social media
+- Search your emoticon
+- About page with elegant UI
+- Contact page with smart action
+- Privacy Policy
+- Rate app lets you get feedback
+- Share app allows you to get a lot of new users
+- More app allows users to browse and try all of your app
+- Banner AdMob ADs integrations
+- Native AdMob ads integrations
+- Interstitial AdMob ads integrations
+- Android Studio Project
+- Developed with java programming language
+- No programming skills required
+- Latest SDK Version support android 13
+- Perfect and minimal clean material design
+- Easy to customize
+- Easy Documentation step by step with screenshot
+- Feature update and supports
+- Ready release and get large income
 
 ## WHATS WEB :-
 Start using now by downloading this Whats web scan app and use the amazing feature. Follow the simple three steps and use dual chat feature.
@@ -166,13 +96,13 @@ Use our cool text generator & stylish font creator as font whats trick and start
 ## QR CODE GENERATOR & SCANNER :-
 QR Code Generator & Scanner is a very simple and useful application by which, you can create your own custom Bar-code image. you can use this bar code image for advertisement, for sharing information and being a part of modern world..
 
-# WA Deleted Messages:-
+## WA Deleted Messages:-
 The only solution available is to read them from the notifications that you receive and create a message backup based on your notification history.
 Lost Messages The following situations prevent the recovery utility from working
-• If you have muted a chat
-• If you’re following the conversation right now.
-• If you have your device’s alerts turned off.
-• If you deleted the texts before installing the app
+- If you have muted a chat
+- If you’re following the conversation right now.
+- If you have your device’s alerts turned off.
+-If you deleted the texts before installing the app
 
 
 ## FONT TO EMOJI CONVERTER :-
@@ -226,23 +156,10 @@ This app doesn’t collect user data
     </a>
   </p>
 
-# Rate the app:
 
-Please consider rating the app if you are satisfied with the product. Thank you.
 
-# License:
-
-```
-Copyright 2020 Rossyn
-Licensed to the Apache Software Foundation (ASF) under one or more contributor license agreements. 
-See the NOTICE file distributed with this work for additional information regarding copyright ownership. 
-The ASF licenses this file to you under the Apache License, Version 2.0 (the "License"); 
-you may not use this file except in compliance with the License. You may obtain a copy of the 
-License at 
-  http://www.apache.org/licenses/LICENSE-2.0 
-Unless required by applicable law or agreed to in writing, software distributed under the License is 
-distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
-express or implied. See the License for the specific language governing permissions and limitations under the License."
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
+</p>
   
-
 
